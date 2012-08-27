@@ -14,18 +14,18 @@ tags: ['vim','JavaScript']
 
 ## 安装Node.js
 
-    ```sh
-    sudo apt-get install python-software-properties
-    sudo add-apt-repository ppa:chris-lea/node.js
-    sudo apt-get update
-    sudo apt-get install nodejs npm
-    ```
+```sh
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install nodejs npm
+```
 
 ## 安装JSLint
 
-    ```sh
-    npm install jslint -g
-    ```
+```sh
+npm install jslint -g
+```
 
 之所以在全局环境中安装JSLint，是因为可以在shell脚本中直接使用`jslint jsscript。js`检查脚本文件。
 

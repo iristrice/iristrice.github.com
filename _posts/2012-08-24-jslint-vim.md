@@ -27,7 +27,7 @@ sudo apt-get install nodejs npm
 npm install jslint -g
 ```
 
-之所以在全局环境中安装JSLint，是因为可以在shell脚本中直接使用`jslint jsscript。js`检查脚本文件。
+之所以在全局环境中安装JSLint，是因为可以在shell脚本中直接使用`jslint jsscript.js`检查脚本文件。
 
 [1]: http://ued.taobao.com/blog/2010/11/11/jslint-for-vim/
 [2]: http://en.wikipedia.org/wiki/JavaScript_engine

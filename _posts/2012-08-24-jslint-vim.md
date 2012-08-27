@@ -27,7 +27,6 @@ npm install jslint -g
 
 ```sh
 npm install jslint -g
-sudo apt
 ```
 
 # 安装JSLint

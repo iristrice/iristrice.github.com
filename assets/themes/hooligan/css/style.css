@@ -16,7 +16,7 @@ body {
   text-shadow: 1px 1px 1px #000;
   height: 100%;
   font-family: 'Oxygen', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* line 26, ../_sass/_base.scss */
@@ -152,7 +152,7 @@ hr {
 /* line 135, ../_sass/_base.scss */
 .content p {
   padding-bottom: 15px;
-  line-height: 25px;
+  line-height: 30px;
   margin: 0;
 }
 
@@ -403,4 +403,8 @@ div.sidebar section img.icon {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+}
+
+ul li {
+ line-height: 25px;
 }

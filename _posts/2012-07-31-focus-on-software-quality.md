@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "如何写出可维护的代码?"
-description: "test"
+description: "浮现式设计读书笔记"
 category: "readingBook"
 tags: [ "浮现式设计" , "随笔" ]
 ---
@@ -21,8 +21,6 @@ tags: [ "浮现式设计" , "随笔" ]
 
 >   * 隐藏的可以改变（封装）
 >   * 代码应仅实现应有的功能，而不必实现其他功能（内聚）
-
----
 
 1. ### 封装
 

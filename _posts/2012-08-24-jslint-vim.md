@@ -23,9 +23,9 @@ tags: ['vim','JavaScript']
 
 ## 安装JSLint
 
-    ```sh
-    npm install jslint -g
-    ```
+```sh
+npm install jslint -g
+```
 
 之所以在全局环境中安装JSLint，是因为可以在shell脚本中直接使用`jslint jsscript。js`检查脚本文件。
 

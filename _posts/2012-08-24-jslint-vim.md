@@ -3,7 +3,7 @@ layout: post
 title: "在Ubuntu中的安装Node.js+jslint.vim"
 description: ""
 category: 
-tags: [vim,JavaScript]
+tags: ["vim","JavaScript"]
 ---
 {% include JB/setup %}
 

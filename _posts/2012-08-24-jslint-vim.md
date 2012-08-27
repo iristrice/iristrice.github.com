@@ -40,7 +40,7 @@ $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 {% endhighlight %}
 
 ### 2. 配置Vundle
-##
+
 在`.vimrc`文件中添加如下代码：
 {% highlight vim %}
 set nocompatible               " be iMproved
@@ -62,36 +62,41 @@ Bundle 'gmarik/vundle'
 
 ### 3. 安装jslint.vim
 
-    根据Vundle的使用方法，安装jslint.vim十分简单：在`.vimrc`中添加`hallettj/jslint.vim`,然后在Vim终端中运行` :BundleInstall `就安装好了。
+根据Vundle的使用方法，安装jslint.vim十分简单：在`.vimrc`中添加`hallettj/jslint.vim`,然后在Vim终端中运行
+
+    :BundleInstall
+    
+就安装好了。
 
 ## jslint.vim的配置
 
 装好即可用，[这篇博客][7](墙)有不错的脚本，<F5>键调出JsLint的quickfix窗口，我把代码复制到这里供大家参考，添加进.vimrc文件中即可使用。
 
-    {% highlight vim $}
-    setlocal makeprg=jslint\ %
-    setlocal errorformat=%f:%l:%c:%m
-    
-    let s:showMakeWnd = "0"
-    function! ToggleMake()
-    	echo "Make Wnd mode: " . s:showMakeWnd
-    
-    	if s:showMakeWnd == "0"
-    		w
-    		silent make
-    		cw
-    		copen
-    		cc
-    	else
-    		cclose
-    	endif
-    
-    	let s:showMakeWnd = (s:showMakeWnd == "0" ? "1" : "0")
-    endfunction
-    
-    nmap <silent> <F5> :call ToggleMake()<CR>
-    
-    {% endhighlight %}
+{% highlight vim %}
+
+setlocal makeprg=jslint\ %
+setlocal errorformat=%f:%l:%c:%m
+
+let s:showMakeWnd = "0"
+function! ToggleMake()
+	echo "Make Wnd mode: " . s:showMakeWnd
+
+	if s:showMakeWnd == "0"
+		w
+		silent make
+		cw
+		copen
+		cc
+	else
+		cclose
+	endif
+
+	let s:showMakeWnd = (s:showMakeWnd == "0" ? "1" : "0")
+endfunction
+
+nmap <silent> <F5> :call ToggleMake()<CR>
+
+{% endhighlight %}
 
 [1]: http://ued.taobao.com/blog/2010/11/11/jslint-for-vim/
 [2]: http://en.wikipedia.org/wiki/JavaScript_engine

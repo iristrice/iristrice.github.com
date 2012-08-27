@@ -25,12 +25,18 @@ sudo apt-get install nodejs npm
 npm install jslint -g
 ```
 
-```sh
+{ % hightlight sh %}
 npm install jslint -g
 sudo apt
-```
+{% endhightlight %}
 
-# 安装JSLint
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
+## 安装JSLint
 
 ```sh
 npm install jslint -g

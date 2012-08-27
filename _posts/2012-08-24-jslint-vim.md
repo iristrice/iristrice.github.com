@@ -21,7 +21,16 @@ sudo apt-get update
 sudo apt-get install nodejs npm
 ```
 
-## 安装JSLint
+```sh
+npm install jslint -g
+```
+
+```sh
+npm install jslint -g
+sudo apt
+```
+
+# 安装JSLint
 
 ```sh
 npm install jslint -g

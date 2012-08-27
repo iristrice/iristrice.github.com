@@ -25,21 +25,11 @@ sudo apt-get install nodejs npm
 npm install jslint -g
 ```
 
-{ % hightlight sh %}
-npm install jslint -g
-sudo apt
-{% endhightlight %}
-
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
-
 ## 安装JSLint
 
 ```sh
 npm install jslint -g
+dsfasdf
 ```
 
 之所以在全局环境中安装JSLint，是因为可以在shell脚本中直接使用`jslint jsscript.js`检查脚本文件。
